@@ -16,7 +16,7 @@ app.get('/person', logger, validator, getName);
 function getName(request, response, next){
   const person = {
     name: request.query.name,
-  }
+  };
   console.log('hello');
   console.log(person);
   if (!person) {
@@ -32,7 +32,7 @@ module.exports = {
   app: app,
   start: function(port) {
     app.listen(port, () => {
-      console.log('App is running on port:', port)
+      console.log('App is running on port:', port);
     });
-  }
-}
+  },
+};

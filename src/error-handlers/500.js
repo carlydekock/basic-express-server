@@ -6,6 +6,6 @@ module.exports = function (err, request, response, next) {
   const errorObject = {
     status: 500,
     message: error,
-  }
+  };
   response.status(errorObject.status).json(errorObject);
-}
+};

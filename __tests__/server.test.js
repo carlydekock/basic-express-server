@@ -17,4 +17,4 @@ describe('Testing server', () => {
 
   //   expect(response.status).toEqual(500);
   // });
-})
+});
