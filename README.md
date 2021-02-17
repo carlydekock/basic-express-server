@@ -1,11 +1,15 @@
 # LAB: Express
 
 Dynamic API Phase 1: Build your core, standards compliant Express server
+## Author: Carly Dekock
 
-## [Link to GitHub Repository](https://github.com/carlydekock/basic-express-server.git)
+## [Link to GitHub repository](https://github.com/carlydekock/basic-express-server.git)
+## [Link to PR](https://github.com/carlydekock/basic-express-server/pulls/3)
 
-## UML
-![image](assets/UML.png)
+## Deployed links
+
+- [Link to deployed site on Heroku](https://carlydekock-basic-express-serv.herokuapp.com/)
+- [Link to GitHub actions](https://github.com/carlydekock/server-deployment-practice/actions)
 
 ## The Setup
 
@@ -24,7 +28,9 @@ Dynamic API Phase 1: Build your core, standards compliant Express server
 - Start the server using ```nodemon```
 - Visit http://localhost:PORT at the PORT number you've assigned in your .env
 
-## Deployed links
+## UML
+![image](assets/UML.png)
 
-- [Link to deployed site on Heroku](https://carlydekock-basic-express-serv.herokuapp.com/)
-- [Link to GitHub actions](https://github.com/carlydekock/server-deployment-practice/actions)
+## Credits and Collaborations
+
+- Worked at lab table with Jason Q, Jason D, Bill, and Nick M
