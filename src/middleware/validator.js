@@ -1,9 +1,14 @@
 'use strict';
 
 module.exports = function validator (request, response, next) {
-  const name = request.query.name;
-  if(!name){
-    next(console.error('no name'));
+  const person = {
+    name: request.query.name,
+  };
+  if(!person.name){
+    response.status(500).send({
+      status: 500,
+      error: 'No name',
+    });
   }
   next();
 };

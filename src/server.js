@@ -17,12 +17,11 @@ function getName(request, response, next){
   const person = {
     name: request.query.name,
   };
-  console.log('hello');
-  console.log(person);
-  if (!person) {
-    response.status(500);
-  }
-  response.status(200).json(person);
+  // console.log(person);
+  // if (!person) {
+  //   response.status(500);
+  // }
+  response.json(person);
 }
 
 app.use('*', errorHandler404);
