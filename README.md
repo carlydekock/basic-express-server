@@ -4,7 +4,7 @@ Dynamic API Phase 1: Build your core, standards compliant Express server
 ## Author: Carly Dekock
 
 ## [Link to GitHub repository](https://github.com/carlydekock/basic-express-server.git)
-## [Link to PR](https://github.com/carlydekock/basic-express-server/pulls/3)
+## [Link to PR](https://github.com/carlydekock/basic-express-server/pull/4)
 
 ## Deployed links
 
